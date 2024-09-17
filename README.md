@@ -1,4 +1,4 @@
-# Azure Function for Resume Processing
+# Azure Function for Document Processing
 This Azure Function is designed specifically to handle the processing of resumes uploaded to Azure Blob Storage. It utilizes AI Document Intelligence to extract and analyze the resume content, and OpenAI's text classification capabilities to categorize the extracted text. To enhance the processing, an embedding model is used to convert the classified text into vector data. The vector data is then seamlessly integrated into Azure Search Service for efficient indexing and searching.
 
 ## Table of Contents
