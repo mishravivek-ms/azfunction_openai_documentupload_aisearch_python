@@ -1,5 +1,5 @@
 # Azure Function for Document Processing
-This Azure Function is designed specifically to handle the processing of resumes uploaded to Azure Blob Storage. It utilizes AI Document Intelligence to extract and analyze the resume content, and OpenAI's text classification capabilities to categorize the extracted text. To enhance the processing, an embedding model is used to convert the classified text into vector data. The vector data is then seamlessly integrated into Azure Search Service for efficient indexing and searching.
+This Azure Function is designed specifically to handle the processing of document uploaded to Azure Blob Storage. It utilizes AI Document Intelligence to extract and analyze the document content, and OpenAI's text classification capabilities to categorize the extracted text. To enhance the processing, an embedding model is used to convert the classified text into vector data. The vector data is then seamlessly integrated into Azure Search Service for efficient indexing and searching.
 
 ## Table of Contents
 - Prerequisites
@@ -22,8 +22,8 @@ This Azure Function is designed specifically to handle the processing of resumes
 - Azure Search Service
 
 ## Architecture
-1. **Trigger**: The function is triggered when a resume is uploaded to Azure Blob Storage.
-2. **Document Intelligence**: The content of the resume is read using Azure Document Intelligence.
+1. **Trigger**: The function is triggered when a document is uploaded to Azure Blob Storage.
+2. **Document Intelligence**: The content of the document is read using Azure Document Intelligence.
 3. **Text Classification**: The text is classified using OpenAI's API.
 4. **Embedding Model**: The classified text is converted into vector data using an embedding model.
 5. **Azure Search**: The vector data is loaded into Azure Search Service for indexing and searching.
@@ -43,7 +43,7 @@ git https://github.com/mishravivek-ms/azfunction_openai_documentupload_aisearch_
 2. Copy content from example.env to .env file.
 3. Create a Cognitive Service for Form Recognizer.
 4. Create Azure OPEN AI services. 
-5. Create a storage account for upload resume. 
+5. Create a storage account for upload document. 
 6. Create Azure search services 
 
 
