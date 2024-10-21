@@ -20,6 +20,7 @@ This Azure Function is designed specifically to handle the processing of documen
 - Azure Cognitive Services (Document Intelligence)
 - OpenAI API Key
 - Azure Search Service
+- Create manage identity between Blob storage and Document intelligence
 
 ## Architecture
 1. **Trigger**: The function is triggered when a document is uploaded to Azure Blob Storage.
@@ -45,7 +46,7 @@ git https://github.com/mishravivek-ms/azfunction_openai_documentupload_aisearch_
 4. Create Azure OPEN AI services. 
 5. Create a storage account for upload document. 
 6. Create Azure search services
-7. Create manage identity between Blob storage and Document intelligence
+
 
 
 ### 3. Code details 
