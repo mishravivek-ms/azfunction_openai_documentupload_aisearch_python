@@ -1,6 +1,10 @@
 # Azure Function for Document Processing
 This Azure Function is designed specifically to handle the processing of document uploaded to Azure Blob Storage. It utilizes AI Document Intelligence to extract and analyze the document content, and OpenAI's text classification capabilities to categorize the extracted text. To enhance the processing, an embedding model is used to convert the classified text into vector data. The vector data is then seamlessly integrated into Azure Search Service for efficient indexing and searching.
 
+## Expected input and output
+- **Input**: User upload a document into Azure blob storage
+- **Output**: Document will get upload into Azure AI search with key skills 
+
 ## Table of Contents
 - Prerequisites
 - Architecture
