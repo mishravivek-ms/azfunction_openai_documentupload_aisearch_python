@@ -44,7 +44,8 @@ git https://github.com/mishravivek-ms/azfunction_openai_documentupload_aisearch_
 3. Create a Cognitive Service for Form Recognizer.
 4. Create Azure OPEN AI services. 
 5. Create a storage account for upload document. 
-6. Create Azure search services 
+6. Create Azure search services
+7. Create manage identity between Blob storage and Document intelligence
 
 
 ### 3. Code details 
